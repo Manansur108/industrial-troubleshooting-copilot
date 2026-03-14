@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-multipart
+httpx
+openai
+chromadb
+pypdf
+python-docx
+python-dotenv

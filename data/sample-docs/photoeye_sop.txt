@@ -1,0 +1,8 @@
+Photoeye fault SOP
+
+When the photoeye does not detect product:
+- confirm sensor power supply
+- inspect alignment and lens cleanliness
+- verify reflector condition if applicable
+- review PLC input state and wiring continuity
+- check upstream interlocks that depend on the sensor signal

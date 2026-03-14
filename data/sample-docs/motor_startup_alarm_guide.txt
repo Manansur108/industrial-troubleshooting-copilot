@@ -1,0 +1,10 @@
+Motor startup troubleshooting guide
+
+If the motor does not start after a reset:
+1. Verify E-stop chain and safety relay status.
+2. Confirm overload relay is reset.
+3. Check that the run permissive is present from the PLC.
+4. Confirm the drive has no active fault.
+5. Verify the interlock device and sensor feedback are healthy.
+
+Common causes include safety interlock open, overload relay trip, active drive fault, or missing run command.

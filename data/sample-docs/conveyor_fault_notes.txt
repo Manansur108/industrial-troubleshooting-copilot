@@ -1,0 +1,10 @@
+Conveyor startup notes
+
+Conveyor restart requires:
+- safety gate closed
+- downstream jam cleared
+- overload reset complete
+- VFD fault reset complete
+- start permissive from line controller active
+
+If the conveyor remains stopped after reset, inspect drive ready state, permissive chain, and field feedback.

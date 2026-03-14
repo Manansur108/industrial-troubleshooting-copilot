@@ -1,0 +1,15 @@
+2026-03-14 13:30:01.015 [INFO]  [ScaraCtrl] Routine execution started: seq_pick_place_04.prg
+2026-03-14 13:30:01.082 [INFO]  [MotionSys] Interpolation active. Axes J1, J2, J3, J4 tracking nominal.
+2026-03-14 13:30:04.550 [INFO]  [CIP_Stack] EtherNet/IP I/O connection established. Target O->T: 0x4A9B, T->O: 0x8C22. RPI: 10ms.
+2026-03-14 13:30:08.112 [DEBUG] [VisionSys] Part detected at coordinates X:145.2, Y:-88.5, Rz:12.4.
+2026-03-14 13:30:08.115 [INFO]  [MotionSys] Executing linear move to Target_Pos_A.
+2026-03-14 13:30:12.890 [WARN]  [CIP_Stack] Network latency spike detected. Expected packet at 12.880, delta > 10ms.
+2026-03-14 13:30:12.915 [WARN]  [CIP_Stack] Missed consecutive I/O sync packets (Count: 3).
+2026-03-14 13:30:12.930 [ERROR] [CIP_Stack] CIP FAULT: Connection Timed Out (0x0203). Originator to Target connection lost.
+2026-03-14 13:30:12.932 [ERROR] [CommSys]   Fieldbus communication failure. I/O data invalid.
+2026-03-14 13:30:12.935 [FATAL] [SafetyPLC] Watchdog timeout on CIP Safety packet. Asserting hardware interlock!
+2026-03-14 13:30:12.938 [INFO]  [MotionSys] FAULT REACTION: Category 1 Stop initiated. Rapid deceleration commanded.
+2026-03-14 13:30:13.105 [INFO]  [MotionSys] Axes J1, J2, J3, J4 velocity at 0.0 mm/s.
+2026-03-14 13:30:13.110 [ERROR] [ServoDrv]  Safety interlock open. Disengaging servo power. Brakes applied.
+2026-03-14 13:30:13.115 [INFO]  [ScaraCtrl] SYSTEM STOPPED.
+2026-03-14 13:30:13.118 [INFO]  [ScaraCtrl] Status transition: RUNNING -> FAULT_LOCKOUT. Manual reset required.
