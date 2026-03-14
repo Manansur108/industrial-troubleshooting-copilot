@@ -175,4 +175,9 @@ docker compose -f infra/docker-compose.yml up --build
 - document tagging by machine / line / station / OEM
 - exportable PDF incident report
 
+## Application Screenshot
 
+![Application Screenshot](images/app1.png)
+
+## Incident Handoff quick report
+![Application Screenshot](images/app2.png)
